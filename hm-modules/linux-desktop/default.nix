@@ -22,10 +22,8 @@ in
         nix-direnv          # Enables the `use nix` directive in `.envrc` files
         nix-zsh-completions # TODO does not work yet?
 
-        keyboard-us-luckey  # Custom keyboard layout
         lukestools
         lukespython3        # Custom python3 env
-
 
         gammastep           # Red light
         # autokey           # TODO manually managed so far, maybe add later?

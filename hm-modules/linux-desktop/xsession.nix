@@ -348,14 +348,6 @@ in
             enable = true;
             config = i3Config;
         };
-
-        # 1. Load keyboard layout
-        # 2. Start xcape to map `Caps_Lock` (renamed to `ISO_Level3_Shift`) to `Alt+Z` (renamed to `Super_R+Z`)
-        # -- The order of 1. and 2. is important! --
-        initExtra = ''
-            ${pkgs.keyboard-us-luckey}/bin/keyboard-us-luckey-activate
-            ${pkgs.xcape}/bin/xcape -e 'ISO_Level5_Shift=Super_R|Z'
-        '';
     };
     programs.i3status = i3StatusConfig;
 }
