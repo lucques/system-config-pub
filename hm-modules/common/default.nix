@@ -17,7 +17,7 @@ in
         ''
             export PATH=$HOME/bin:$PATH
             export TERMINAL=${pkgs.gnome.gnome-terminal}/bin/gnome-terminal
-            . $HOME/.ghcup/env   # TODO is this the right place?
+            #. $HOME/.ghcup/env   # TODO is this the right place?
         '';
     
     nix = {
